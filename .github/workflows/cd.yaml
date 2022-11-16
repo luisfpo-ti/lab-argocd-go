@@ -20,6 +20,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: build image and push
-        uses: docker/build-push-actions@v3
+        uses: docker/build-push-action@v3
         with:
-          tags: luisfpo/lab-argocd:${{ github.sha }}, luisfpo/lab-argocd:latest
+          repository: luisfpo/lab-argocd
+          tags: ${{ github.sha }}, latest
