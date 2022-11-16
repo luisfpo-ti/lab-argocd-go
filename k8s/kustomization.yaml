@@ -6,6 +6,6 @@ resources:
 
 namespace: goapp
 images:
-- name: luisfpo/lab-argocd
+- name: goapp
   newName: goapp
   newTag: v1.0.0
