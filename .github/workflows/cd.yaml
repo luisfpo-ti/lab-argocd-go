@@ -22,5 +22,4 @@ jobs:
       - name: build image and push
         uses: docker/build-push-actions@v3
         with:
-          repository: luisfpo/lab-argocd
-          tags: ${{ github.sha }}, latest
+          tags: luisfpo/lab-argocd:${{ github.sha }}, luisfpo/lab-argocd:latest
