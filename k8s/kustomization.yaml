@@ -8,4 +8,4 @@ namespace: goapp
 images:
 - name: goapp
   newName: luisfpo/lab-argocd
-  newTag: 9b068e6bd20fd9f92b68c8e48e336f3e92872887
+  newTag: 01f38ed2c54395270ac9ffd41f58f0ad45894746
